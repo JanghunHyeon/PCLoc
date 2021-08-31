@@ -59,7 +59,7 @@ Download parameter from the above URL, and unzip the file at:
 ###Dataset
 To test our model using the InLoc dataset, the dataset should be downloaded. 
 Downloading takes a while (Dataset is about 1.0TB).
-[Click here](https://github.com/HajimeTaira/InLoc_dataset) to downlaod dataset.
+[Click here](https://github.com/HajimeTaira/InLoc_dataset) to download dataset.
 
 
 
