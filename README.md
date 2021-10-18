@@ -7,7 +7,7 @@
 
 
 
-​                 [<img src="images/paper.png" width="12%"/>](https://openaccess.thecvf.com/content/ICCV2021/html/Hyeon_Pose_Correction_for_Highly_Accurate_Visual_Localization_in_Large-Scale_Indoor_ICCV_2021_paper.html)              [<img src="images/poster.png" width=24.5%>](https://janghunhyeon.github.io/PDF_pages/PCLoc_poster.pdf)               [<img src="images/slides.png" width=26%>](https://janghunhyeon.github.io/PDF_pages/PCLoc_slide_upload.pdf) 
+​     [<img src="images/paper.png" width="18%"/>](https://openaccess.thecvf.com/content/ICCV2021/html/Hyeon_Pose_Correction_for_Highly_Accurate_Visual_Localization_in_Large-Scale_Indoor_ICCV_2021_paper.html)    [<img src="images/poster.png" width=37.0%>](https://janghunhyeon.github.io/PDF_pages/PCLoc_poster.pdf)    [<img src="images/slides.png" width=39%>](https://janghunhyeon.github.io/PDF_pages/PCLoc_slide_upload.pdf) 
 
 
 
