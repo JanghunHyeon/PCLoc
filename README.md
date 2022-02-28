@@ -72,6 +72,8 @@ Downloading takes a while (Dataset is about 1.0TB).
 [Click here](https://github.com/HajimeTaira/InLoc_dataset) to download dataset.
 
 ## Quick Start
+* Clone repository
+  * `git clone --recurse-submodules https://github.com/JanghunHyeon/PCLoc.git`
 * Download InLoc dataset
 * Install dependencies
 * Download model parameters and unzip the files at each of above path 
