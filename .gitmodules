@@ -1,0 +1,6 @@
+[submodule "thirdparty/SuperGluePretrainedNetwork"]
+	path = thirdparty/SuperGluePretrainedNetwork
+	url = https://github.com/magicleap/SuperGluePretrainedNetwork.git
+[submodule "thirdparty/netvlad_tf"]
+	path = thirdparty/netvlad_tf
+	url = https://github.com/uzh-rpg/netvlad_tf_open.git
