@@ -63,7 +63,7 @@ parser.add_argument('--nms_radius', type=int, default=4, help='SuperPoint Non Ma
 parser.add_argument('--sinkhorn_iterations', type=int, default=20, help='Number of Sinkhorn iterations performed by SuperGlue')
 parser.add_argument('--match_threshold', type=float, default=0.2, help='SuperGlue match threshold')
 
-parser.add_argument('--opt_div_matching', default=True, help='True: Divided matching, False: base matching')
+parser.add_argument('--opt_div_matching', default=True, choices=('True','False'), help='True: Divided matching, False: base matching')
 
 args = parser.parse_args()
 torch.set_grad_enabled(False)
@@ -149,7 +149,7 @@ def main_evaluation(query_dir, query_idx, db_dir, num_topk_ret, num_topk_pe, num
         refinement = Refinement_base(superglue)     : Base PC (original matching) 
         refinement = Refinement_extended(superglue) : Extended PC (Div matching)
     """
-    if args.opt_div_matching:
+    if args.opt_div_matching == 'True':
         refinement = Refinement_extended(superglue)
     else:
         refinement = Refinement_base(superglue)
